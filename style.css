@@ -90,9 +90,6 @@ body {
 }
 
 .carousel-item img {
-  height: 200px;
-  object-fit: cover;
+  height: 100vh;       /* full screen height */
+  object-fit: cover;   /* keeps aspect ratio */
 }
-
-
-
