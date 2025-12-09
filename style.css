@@ -7,6 +7,23 @@ body {
     background-image: url(head.jpg);
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1; /* pushes footer down */
+}
+
+footer {
+  background: #111; /* or bg-dark */
+  color: #fff;
+  padding: 20px 0;
+}
+
 .fira-sans-extralight {
     font-family: "Fira Sans", sans-serif;
     font-weight: 200;
@@ -93,3 +110,4 @@ body {
   height: 100vh;       /* full screen height */
   object-fit: cover;   /* keeps aspect ratio */
 }
+
