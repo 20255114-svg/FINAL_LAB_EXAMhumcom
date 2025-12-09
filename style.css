@@ -83,5 +83,16 @@ body {
   color: #0d6efd; /* Bootstrap primary blue */
 }
 
+.carousel-item .card {
+  margin: 0.5rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.carousel-item img {
+  height: 200px;
+  object-fit: cover;
+}
+
 
 
