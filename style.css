@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(head.jpg);
+}
+
+.fira-sans-extralight {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+#navbar {
+    height: 480px;
+    width: 100px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#header h1 {
+    text-align: center;
+    text-size-adjust: 10000pt;
+    text-decoration-color: white;
+}
+
+#carouselslide a{
+    font: 100pt;
+}
+
+.carousel-container {
+    margin: auto;
+    width: 50%;
+  }
+  
+  .carousel-control-prev, .carousel-control-next {
+    margin: -150px !important;
+
+  }
+
+  .carousel-control-next, .carousel-control-prev {
+    height: 1280px;
+    align-items: flex-start;
+  }
+
+#card-img-top {
+    padding-top: 200px;
+}
+
+#card-body h4 {
+    text-align: center;
+}
+
+#footer {
+    justify-content: flex-end;
+    margin-top: 100000px;
+}
+
