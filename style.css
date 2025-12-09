@@ -53,8 +53,35 @@ body {
     text-align: center;
 }
 
-#footer {
-    justify-content: flex-end;
-    margin-top: 100000px;
+/* Footer Styling */
+.footer {
+  font-family: 'Fira Sans', sans-serif;
 }
+
+.footer-title {
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.footer-link {
+  color: #bbb;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #fff;
+}
+
+.footer-social {
+  color: #bbb;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.footer-social:hover {
+  color: #0d6efd; /* Bootstrap primary blue */
+}
+
+
 
