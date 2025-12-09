@@ -67,73 +67,86 @@
     </nav>
 
 
-    <div class="container mt-5">
-        <p class=" mt-5 me-3 text-body-secondary small text-end"><a href="https://codepen.io/veronicadev/pen/yjgjvL"></a></p>
-       <div class="row g-0">
-         <div class="col card-carousel">
-           <div class="card-carousel__nav col-12 col-lg-4 g-2">
-             <span id="moveLeft" class="carousel__arrow">
-               <svg class="carousel__icon" width="24" height="24" viewBox="0 0 24 24">
-                 <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
-               </svg>
-             </span>
-             <span id="moveRight" class="carousel__arrow">
-               <svg class="carousel__icon" width="24" height="24" viewBox="0 0 24 24">
-                 <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
-               </svg>
-             </span>
-           </div>
-           <div class="card">
-             <div class="row g-0 ">
-               <div class="col-lg-4 d-flex align-items-center">
-                 <div class="card-body">
-                   <h6 class="card-subtitle text-uppercase fs-6">TECHNO</h6>
-                   <h3 class="card-title display-4">THIS PLATFORM</h3>
-                   <p class="card-text">We aim to serve you the best</p>
-                   <a href="#" class="card-link stretched-link"></a>
-     
-                 </div>
-               </div>
-               <div class="col-lg-8">
-                 <img src="maxresdefault.jpg" class="img-fluid rounded-end" alt="image">
-               </div>
-             </div>
-           </div>
-           <div class="card">
-             <div class="row g-0">
-               <div class="col-lg-4 d-flex align-items-center">
-                 <div class="card-body">
-                   <h6 class="card-subtitle text-uppercase fs-6">TECHNO</h6>
-                   <h3 class="card-title display-4">MISSION</h3>
-                   <p class="card-text">We set the standard</p>
-                   <a href="#" class="btn btn-primary">Card link</a>
-     
-                 </div>
-               </div>
-               <div class="col-lg-8">
-                 <img src="AMD-Radeon-GPU-Prices-Set-to-Rise-20-Increase-for-8GB-Cards-40-for-16GB-Models_11zon.webp" class="img-fluid rounded-end" alt="image">
-               </div>
-             </div>
-           </div>
-           <div class="card">
-             <div class="row g-0">
-               <div class="col-lg-4 d-flex align-items-center">
-                 <div class="card-body">
-                   <h6 class="card-subtitle text-uppercase fs-6">TECHNO</h6>
-                   <h3 class="card-title display-4">VISION</h3>
-                   <p class="card-text">Game changer company</p>
-                   <a href="#" class="card-link">Card link</a>
-     
-                 </div>
-               </div>
-               <div class="col-lg-8">
-                 <img src="tech.jpg" class="img-fluid rounded-end" alt="image">
-               </div>
-             </div>
-           </div>
-         </div>
-         </div>
-     </div>
+<div id="technoCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+
+
+    <div class="carousel-item active">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="maxresdefault.jpg" class="card-img-top" alt="Platform">
+            <div class="card-body">
+              <h5 class="card-title">THIS PLATFORM</h5>
+              <p class="card-text">We aim to serve you the best</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="AMD-Radeon-GPU-Prices-Set-to-Rise-20-Increase-for-8GB-Cards-40-for-16GB-Models_11zon.webp" class="card-img-top" alt="Mission">
+            <div class="card-body">
+              <h5 class="card-title">MISSION</h5>
+              <p class="card-text">We set the standard</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="tech.jpg" class="card-img-top" alt="Vision">
+            <div class="card-body">
+              <h5 class="card-title">VISION</h5>
+              <p class="card-text">Game changer company</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="image1.jpg" class="card-img-top" alt="Card 4">
+            <div class="card-body">
+              <h5 class="card-title">Card 4</h5>
+              <p class="card-text">Description here</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="image2.jpg" class="card-img-top" alt="Card 5">
+            <div class="card-body">
+              <h5 class="card-title">Card 5</h5>
+              <p class="card-text">Description here</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="image3.jpg" class="card-img-top" alt="Card 6">
+            <div class="card-body">
+              <h5 class="card-title">Card 6</h5>
+              <p class="card-text">Description here</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#technoCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#technoCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
 <footer class="footer bg-dark text-light pt-4">
   <div class="container">
     <div class="row">
@@ -167,6 +180,7 @@
 </body>
 
 </html>
+
 
 
 
